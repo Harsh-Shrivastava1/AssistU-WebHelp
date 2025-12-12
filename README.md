@@ -39,7 +39,7 @@ Provides a simplified overview of the entire visual environment.
 ## Tech Stack
 
 Frontend:
-- HTML, CSS, JavaScript
+- HTML, CSS, TypeScript
 - WebRTC for camera access
 - Speech Recognition and Speech Synthesis APIs
 
@@ -53,6 +53,36 @@ AI Models:
 - Gemini Audio/Text Models
 
 ---
+
+
+## How It Works
+
+1. Frontend captures a camera frame.
+2. Sends image to backend.
+3. Backend forwards it to Gemini Vision.
+4. Gemini returns:
+   - Object detection
+   - Distance estimation
+   - Obstacle alerts
+   - Navigation suggestions
+5. System converts the output to voice for the user.
+6. Voice queries are processed using Gemini text and multimodal reasoning.
+
+---
+
+## Hackathon Submission
+This project was created for the Gemini 3 Pro Hackathon under the Accessibility Track, demonstrating real-world impact through AI-based mobility assistance.
+
+---
+
+## Contributing
+Pull requests are welcome. Contributors may add features such as improved UI, AR overlays, or extended navigation capabilities.
+
+---
+
+## License
+MIT License
+
 
 
 

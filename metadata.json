@@ -1,0 +1,8 @@
+{
+  "name": "AssistU - AI Accessibility Navigator",
+  "description": "A visual-to-audio navigation assistant for blind and low-vision users using Gemini 3 Pro multimodal capabilities to describe scenes, read text, and identify obstacles.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

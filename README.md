@@ -9,6 +9,10 @@ AssistU is an AI-powered visual navigation system designed to assist visually-im
 
 ---
 
+## Hackathon Submission
+This project was created for the Gemini 3 Pro Hackathon under the Accessibility Track, demonstrating real-world impact through AI-based mobility assistance.
+---
+
 ## Features
 
 ### 1. Real-Time Scene Description
@@ -67,11 +71,6 @@ AI Models:
    - Navigation suggestions
 5. System converts the output to voice for the user.
 6. Voice queries are processed using Gemini text and multimodal reasoning.
-
----
-
-## Hackathon Submission
-This project was created for the Gemini 3 Pro Hackathon under the Accessibility Track, demonstrating real-world impact through AI-based mobility assistance.
 
 ---
 
